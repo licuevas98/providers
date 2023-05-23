@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "d89561a3-2d1e-48b5-b4f7-64728eb2e1aa",
+		"name": "Provider Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20351784"
+	},
+	"item": [
+		{
+			"name": "GET All Providers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/providers/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"providers",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Provider by clientId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/providers/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"providers",
+						"6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
