@@ -6,14 +6,14 @@ Este proyecto es una aplicación en Java que implementa un microservicio utiliza
 Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
 * Java Development Kit (JDK) 17 o una versión superior.
 * Maven para gestionar las dependencias.
-* Tener acceso a una base de datos PostgreSQL (version 14)
+* Tener acceso a una base de datos PostgreSQL (version 15)
 
 
 ## Configuración y ejecución
 Sigue los pasos a continuación para configurar y ejecutar la aplicación:
 1. Clona este repositorio o descarga el código fuente. `git clone https://github.com/licuevas98/providers.git`
 2. Accede al directorio del proyecto.
-`cd servicio-proveedores`
+`cd providers`
 3. Compila el proyecto utilizando Maven.
    `mvn clean install`
 4. Añade las variables de entorno `export PostgresDbHost=?; export PostgresDbPort=?; export PostgresDbName=?; export PostgresDbUserName=?; export PostgresDbPassword=?;` reemplazando el signo de pregunta por el valor real.
