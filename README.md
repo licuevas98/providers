@@ -11,7 +11,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instalado lo siguiente:
 
 ## Configuración y ejecución
 Sigue los pasos a continuación para configurar y ejecutar la aplicación:
-1. Clona este repositorio o descarga el código fuente. `git clone <URL_DEL_REPOSITORIO_GIT>`
+1. Clona este repositorio o descarga el código fuente. `git clone https://github.com/licuevas98/providers.git`
 2. Accede al directorio del proyecto.
 `cd servicio-proveedores`
 3. Compila el proyecto utilizando Maven.
