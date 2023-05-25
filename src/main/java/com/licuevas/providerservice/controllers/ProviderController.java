@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
-@RestController("/providers")
+@RestController
+@RequestMapping(path = "/providers")
 @RequiredArgsConstructor
 public class ProviderController {
     private final ProviderService providerService;
