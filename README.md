@@ -44,5 +44,7 @@ En este proyecto, se han utilizado las siguientes dependencias principales:
 * H2 Database: Base de datos en memoria para el entorno de desarrollo y pruebas.
 * JUnit 5: Biblioteca para escribir y ejecutar pruebas unitarias en Java.
 * Flyway: Para el control de versiones de la base de datos.
+* Lombok: Biblioteca para reducir la cantidad de código repetitivo en las clases Java, generando automáticamente getters, setters, constructores, entre otros.
+* PostgreSQL Driver: Controlador JDBC para la conexión con una base de datos PostgreSQL.
 
 Puedes encontrar la lista completa de dependencias y sus versiones en el archivo `pom.xml`.

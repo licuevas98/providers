@@ -4,17 +4,11 @@ import com.licuevas.providerservice.dto.ProviderDto;
 import com.licuevas.providerservice.dto.ProviderWithoutClientIdDto;
 import com.licuevas.providerservice.services.ProviderService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
-@Controller
-@RequestMapping(path = "/providers")
-@ResponseBody
+@RestController("/providers")
 @RequiredArgsConstructor
 public class ProviderController {
     private final ProviderService providerService;
