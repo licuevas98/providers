@@ -20,7 +20,7 @@ Sigue los pasos a continuación para configurar y ejecutar la aplicación:
 5. Ejecuta la aplicación.
    `mvn spring-boot:run`
 
-En caso de ser necesario, para tener datos en la base de datos existe un archivo `db/import.sql` que crea unos datos de prueba. Solo es necesario ejecutar este archivo en la base de datos para crearlos. Esto solo debe hacerlo en caso de que no existan datos al ejecutar el servicio, ya que por defecto debería hacerlo automáticamente.
+En caso de ser necesario, para tener datos en la base de datos existe un archivo `db/import.sql` que crea unos datos de prueba. Solo es necesario ejecutar este archivo en la base de datos para crearlos. Esto solo debe hacerlo en caso de que no existan datos al ejecutar el servicio.
 
 La aplicación se ejecutará y estará disponible en http://localhost:8080
 
