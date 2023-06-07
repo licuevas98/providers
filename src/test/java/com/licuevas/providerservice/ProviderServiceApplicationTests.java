@@ -26,7 +26,7 @@ class ProviderServiceApplicationTests {
     @CsvSource(value = {"1:0", "2:0", "3:0", "4:0", "5:2", "6:2", "7:1", "8:1"}, delimiter = ':')
     void checkAllProvidersForSpecificClientId(String clientId, String amount){
         Collection<ProviderWithoutClientIdDto> allProviders = providerService.getAllProvidersForClientId(Integer.parseInt(clientId));
-        assertThat("Expected to be an non-empty array(with one value) but got empty", allProviders.size() == Integer.parseInt(amount));
+        assertThat("Expected to be an array with size " + amount, allProviders.size() == Integer.parseInt(amount));
     }
     @Test
     void checkAllProvidersOnEmptyDatabaseAndExpectEmptyResult(){

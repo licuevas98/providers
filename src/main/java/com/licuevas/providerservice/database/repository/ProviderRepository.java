@@ -17,7 +17,6 @@ public interface ProviderRepository extends JpaRepository<ProviderEntity, Long> 
             "where providerEntity.clientUid = :clientId")
     Collection<ProviderWithoutClientIdDto> findAllByClientId(@Param("clientId") long clientId);
 
-
     @Query("select new com.licuevas.providerservice.dto.ProviderDto(providerEntity.providerUid, providerEntity.name, providerEntity.date, providerEntity.clientUid) " +
             "from ProviderEntity providerEntity")
     Collection<ProviderDto> findAllAndMapToDto();
